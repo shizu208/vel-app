@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage("one"){
             steps{
-                sh “sudo yum install httpd -y"
+                sh "sudo yum install httpd -y"
             }
         }
         stage("two"){
